@@ -1,0 +1,102 @@
+body{
+    margin:0;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#e9eaec;
+    font-family:Arial, sans-serif;
+}
+.contenedor{
+    width:100%;
+    max-width:1000px;
+
+    padding:30px;
+    background:white;
+    border-radius:20px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.2);
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+
+}
+.area{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:15px;
+
+    height:140px;
+
+    border-radius:20px;
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+}
+.area:hover{
+    transform:scale(1.05);
+}
+.area img{
+    width:80px;
+    height:80px;
+    object-fit:cover;
+}
+.mate{
+    background: #4caf50;
+}
+
+.comu{
+    background:#2196f3;
+}
+
+.ciencia{
+    background: #ff9800;
+}
+
+.geografia{
+    background:#9c27b0;
+}
+h1{
+    text-align:center;
+    margin-top:40px;
+    font-size:50px;
+}
+.juegos{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+    margin-top:60px;
+}
+.opcion{
+    width:280px;
+    height:90px;
+    background:#2d8fe3;
+    color:white;
+    text-decoration:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:20px;
+    font-size:28px;
+    font-weight:bold;
+    transition:0.3s;
+}
+.opcion:hover{
+    transform:scale(1.08);
+}
+.volver{
+    display:block;
+    width:300px;
+    margin:80px auto;
+    text-align:center;
+    text-decoration:none;
+    background:#ff5a1f;
+    color:white;
+    padding:20px;
+    border-radius:20px;
+    font-size:30px;
+    font-weight:bold;
+}
