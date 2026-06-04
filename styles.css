@@ -113,3 +113,43 @@ h1{
     color:#333;
     font-size:28px;
 }
+/* PERSONAJE */
+.personaje{
+    position:fixed;
+    left:20px;
+    bottom:20px;
+    display:flex;
+    align-items:flex-start;
+    z-index:1000;
+}
+
+.personaje img{
+    width:220px;
+    height:auto;
+}
+
+/* Globo de diálogo */
+.globo{
+    position:relative;
+    background:white;
+    padding:15px 20px;
+    border-radius:20px;
+    font-size:22px;
+    font-weight:bold;
+    margin-left:15px;
+    margin-top:30px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+    max-width:300px;
+    color:#333;
+}
+
+/* Pico del globo */
+.globo::before{
+    content:"";
+    position:absolute;
+    left:-20px;
+    top:50px;
+    border-width:12px;
+    border-style:solid;
+    border-color:transparent white transparent transparent;
+}
