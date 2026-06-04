@@ -10,25 +10,20 @@ body{
 .contenedor{
     width:100%;
     max-width:1000px;
-
     padding:30px;
     background:white;
     border-radius:20px;
     box-shadow:0 4px 15px rgba(0,0,0,0.2);
-
     display:grid;
     grid-template-columns:1fr 1fr;
     gap:25px;
-
 }
 .area{
     display:flex;
     align-items:center;
     justify-content:center;
     gap:15px;
-
     height:140px;
-
     border-radius:20px;
     text-decoration:none;
     color:white;
@@ -99,4 +94,22 @@ h1{
     border-radius:20px;
     font-size:30px;
     font-weight:bold;
+}
+.contenedor-principal{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.bienvenida{
+    text-align:center;
+    margin-bottom:20px;
+}
+.bienvenida img{
+    width:150px;
+    height:auto;
+}
+.bienvenida h2{
+    margin-top:10px;
+    color:#333;
+    font-size:28px;
 }
