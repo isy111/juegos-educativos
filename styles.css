@@ -165,10 +165,30 @@ h1{
     z-index:1000;
 }
 .logo-superior img{
-    width:800px;
+    width:100px;
+    max-width:800px;
     height:auto;
 }
 @media (max-width: 768px){
+    .logo-superior{
+        position:relative;
+        top:0;
+        left:0;
+        transform:none;
+        text-align:center;
+        margin-bottom:15px;
+    }
+    .logo-superior img{
+        width:95%;
+        max-width:100%;
+    }
+    .personaje{
+        display:none;
+    }
+    body{
+        display:block;
+        padding-top:10px;
+    }
     .contenedor{
         width: 90%;
         grid-template-columns: 1fr;
@@ -186,17 +206,5 @@ h1{
     .banner img{
         width: 95%;
         max-width: 100%;
-    }
-    .personaje{
-        left: 5px;
-        bottom: 5px;
-    }
-    .personaje img{
-        width: 90px;
-    }
-    .globo{
-        font-size: 14px;
-        max-width: 160px;
-        padding: 10px;
     }
 }
