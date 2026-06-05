@@ -159,14 +159,14 @@ h1{
 }
 .logo-superior{
     position:fixed;
-    top:40px;
+    top:30px;
     left:50%;
     transform:translateX(-50%);
     z-index:1000;
 }
 .logo-superior img{
     width:800px;
-    height:auto;
+    height:100px;
 }
 @media (max-width: 768px){
     .logo-superior{
