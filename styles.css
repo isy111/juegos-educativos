@@ -165,8 +165,8 @@ h1{
     z-index:1000;
 }
 .logo-superior img{
-    width:100px;
-    max-width:800px;
+    width:800px;
+    max-width:100px;
     height:auto;
 }
 @media (max-width: 768px){
