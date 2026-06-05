@@ -164,3 +164,15 @@ h1{
     width:90%;
     height:auto;
 }
+.logo-superior{
+    position:fixed;
+    top:10px;
+    left:50%;
+    transform:translateX(-50%);
+    z-index:1000;
+}
+
+.logo-superior img{
+    width:650px;
+    height:auto;
+}
